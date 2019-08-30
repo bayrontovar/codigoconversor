@@ -38,6 +38,8 @@ for(i=0;i<tam2;i++){// de string a entero dato2
 	    if(dato2[i]==natu[j]) num2[tam2-1-i]=j;       
     }
 }
+
+pto=suma1-suma2;
 suma1=pot(num1, tam1);
 suma2=pot(num2, tam2);
 sumat=suma1+suma2+suma1+suma2;
