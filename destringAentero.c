@@ -40,6 +40,7 @@ for(i=0;i<tam2;i++){// de string a entero dato2
 }
 suma1=pot(num1, tam1);
 suma2=pot(num2, tam2);
+unsigned char divi=suma1/suma2;
 sumat=suma1+suma2+suma1+suma2;
 printf("%d + %d = %d", suma1, suma2, sumat);
 return 0;
