@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 unsigned int i=0, j=0, resul=1;
 unsigned int tam=0, tam1=0, tam2=0;
@@ -41,12 +40,7 @@ for(i=0;i<tam2;i++){// de string a entero dato2
 }
 
 
-
-unsigned char resta= suma2-pot(num1,num2);
-printf("%d-%d=%d", suma1,suma2, resta);
 unsigned char resta= suma1-pot(num1,num2);
-suma1=pot(num1, tam1);
-suma2=pot(num2, tam2);
 suma1=pot(num1, tam1);
 suma2=pot(num2, tam2);
 unsigned char divi=suma1/suma2;
