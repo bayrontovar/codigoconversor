@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <so.h>
+#include <conio.h>
 
 unsigned int i=0, j=0, resul=1;
 unsigned int tam=0, tam1=0, tam2=0;
