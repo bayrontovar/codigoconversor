@@ -46,6 +46,8 @@ unsigned char resta= suma1-pot(num1,num2);
 suma1=pot(num1, tam1);
 suma2=pot(num2, tam2);
 unsigned char divi=suma1/suma2;
+suma1=pot(num1, tam1);
+suma2=pot(num2, tam2);
 sumat=suma1+suma2+suma1+suma2;
 printf("%d + %d = %d", suma1, suma2, sumat);
 return 0;
