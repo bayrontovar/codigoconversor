@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <so.h>
 
 unsigned int i=0, j=0, resul=1;
 unsigned int tam=0, tam1=0, tam2=0;
