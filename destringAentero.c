@@ -27,7 +27,7 @@ unsigned char dato2[] = "7";
 unsigned char natu[]= "0123456789";	
 unsigned int num1[]={0}, num2[]={0};
 	
-while(dato1[tam1] != '\0') tam1++; //tamaño de la dato1
+while(dato1[tam1] != '\0') tam1++; //tamaños de la dato1
 while(dato2[tam2] != '\0') tam2++; //tamaño de la dato2
 	
 for(i=0;i<tam1;i++){// de string a entero dato1
